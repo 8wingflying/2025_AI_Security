@@ -6,7 +6,7 @@
 | 3	| 卷積神經網路CNN基本元件與模型:基本元件包括卷積層(Convolutional Layers),池化層(Pooling Layers), dropout;CNN模型:VGG||
 | 4	| 卷積神經網路與電腦視覺主題:物件偵測(Object Detection):Two-stage vs One-stage、Anchor-based vs Anchor-free演算法分析||
 | 5	| 遞迴神經網路RNN:簡單的RNN模型(Vanilla RNN),長短期記憶網路(Long Short Term Memory Network, LSTM),GRU門控循環單元(Gated Recurrent Unit) ,『雙向』(Bidirectional) RNN||
-| 6	| 從Trasnformer到LLM(大型語言模型):Trasnformer|大型語言模型架構與應用範例說明,使用Hugging Face開發||
+| 6	| 從Trasnformer到LLM(大型語言模型):Trasnformer大型語言模型架構與應用範例說明,使用Hugging Face開發||
 | 7	| 生成式AI:變分自動編碼器(Variational Autoencoder, VAE),生成對抗網路 (Generative Adversarial Networks, GAN)與擴散模型(Diffusion Models)||
 | 8	| 開源大型語言模型與開發環境(Llama 4, Hugging Face)及生成式AI的最新發展:GPT-5, Grok 4 AI 模型||
 |  9| 	期中考||
