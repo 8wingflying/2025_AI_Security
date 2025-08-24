@@ -27,9 +27,5 @@
 | 16	| 人工智慧的資訊安全分析:論文分析與實務測試||
 | 17	| 人工智慧與資訊安全分析:論文分析與實務測試||
 | 18	| 期末考||
-
-## LLM Security Scanner
-- https://genai.owasp.org/solution-taxonomy/automated-vulnerability-scanning/
-- OWASP Top 10 for LLM Application Security Project(2023)
-- giskard
-- https://docs.giskard.ai/en/stable/open_source/scan/scan_llm/index.html
+## 舊版
+- https://github.com/8wingflying/GenAI_SECURITY202410
