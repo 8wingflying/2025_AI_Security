@@ -43,7 +43,7 @@
 
 ## 參考書籍
 - [Building Generative AI Agents: Using LangGraph, AutoGen, and CrewAI(2025)|Tom Taulli, Gaurav Deshmukh](https://learning.oreilly.com/library/view/building-generative-ai/9798868811340/)
-- [Building Applications with AI Agents(2025)](https://learning.oreilly.com/library/view/building-applications-with/9781098176495/)
+- [Building Applications with AI Agents(2025)|Michael Albada](https://learning.oreilly.com/library/view/building-applications-with/9781098176495/)
   - https://github.com/michaelalbada/BuildingApplicationsWithAIAgents 
 - [Model Context Protocol(2025)](https://learning.oreilly.com/library/view/model-context-protocol/9781806112371/)
   - https://github.com/PacktPublishing/Model-Context-Protocol-Advanced-AI-Agents-for-Beginners 
