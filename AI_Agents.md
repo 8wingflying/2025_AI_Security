@@ -13,7 +13,9 @@
 - RASA
 - Semantic Kernel
 - Atomic Agents (Javascript)
-- Manus Agent
+- Manus
+- [OpenManus| An open-source framework for building general AI agents](https://openmanus.github.io/)
+  - https://github.com/FoundationAgents/OpenManus 
 
 # AI 代理
 - 1介紹
