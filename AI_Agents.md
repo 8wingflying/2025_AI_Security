@@ -1,0 +1,44 @@
+# [Awesome AI Agents](Awesome_AI_Agents.md)
+- [Awesome Agents](https://github.com/kyrolabs/awesome-agents)
+- [Awesome AI Agents](https://github.com/e2b-dev/awesome-ai-agents)
+# AI Agent
+- Manus Agent
+# AI 代理
+- 1介紹
+- 2文獻綜述
+  - 2.1 AI 代理的理論基礎
+  - 2.2 AI 代理的類型(Typology of AI Agents)
+    - Simple reflex agents
+    - Model-based reflex agents
+    - Goal-based agents(rule-based agents)
+    - Utility-based agents
+    - Learning agents
+    - Hierarchical agents
+    - specialized agent types 
+  - 2.3 AI 代理技術的最新進展 ==> 大型語言模型、強化學習、多智慧體系統和工具集成框架
+- 3 AI 代理架構和元件| AI Agent Architecture and Components
+  - 3.1 AI 代理系統的核心元件|Core Components of AI Agent Systems
+  - 3.2 技術實現方法|Technical Implementation Approaches
+  - 3.3 記憶體和上下文管理|Memory and Context Management
+- 4 Evaluation Frameworks and Benchmarks ==> 參考REF2:
+  - 4.1 Current Evaluation Practices
+  - 4.2 Proposed Evaluation Framework
+- 5 Real-World Applications and Case Studies
+  - 5.1 Enterprise Applications
+  - 5.2 Personal Assistance and Productivity
+  - 5.3 Specialized Domain Applications
+- 6 挑戰和限制|Challenges and Limitations
+  - 6.1技術挑戰
+  - 6.2道德考慮和風險
+- 7.未來的研究方向
+  - 7.1新興研究趨勢
+  - 7.2長期願景和潛在影響
+- 8結論
+## 參考文獻
+- REF1:[AI Agents: Evolution, Architecture, and Real-World Applications(arXiv:2503.12687)(https://arxiv.org/abs/2503.12687)
+- REF2:[Survey on Evaluation of LLM-based Agents(arXiv:2503.16416)](https://arxiv.org/abs/2503.16416)
+- [Agentic AI for Scientific Discovery: A Survey of Progress, Challenges, and Future Directions(arXiv:2503.08979)](https://arxiv.org/abs/2503.08979)
+- [Fairness in Agentic AI: A Unified Framework for Ethical and Equitable Multi-Agent System(arXiv:2502.07254)](https://arxiv.org/abs/2502.07254)
+- [Safety at Scale: A Comprehensive Survey of Large Model Safety(arXiv:2502.05206)](https://arxiv.org/abs/2502.05206)
+- [Agentic Retrieval-Augmented Generation: A Survey on Agentic RAG(arXiv:2501.09136)](https://arxiv.org/abs/2501.09136)
+- [Multi-Agent Collaboration Mechanisms: A Survey of LLMs(arXiv:2501.06322)](https://arxiv.org/abs/2501.06322)
