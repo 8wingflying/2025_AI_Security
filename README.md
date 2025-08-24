@@ -24,6 +24,12 @@
 | 13	| 網站系統技術與安全實務:OWASP TOP 10 ,SQL injection, Command injection||
 | 14	| 滲透測試(方法論,技術與常見測試工具):OSSTMM滲透測試方法論, Kali Linux 滲透測試平台, Metasploit Framework, Nmap掃描技術,內網滲透測試||
 | 15| 	Metasploitable3 滲透測試實務與 AI-powered 自動化滲透測試與攻防(PentestGPT, BlueTeam Defender GPT)||
-| 16	| 機器學習與資訊安全分析:論文分析與實務測試||
+| 16	| 人工智慧的資訊安全分析:論文分析與實務測試||
 | 17	| 人工智慧與資訊安全分析:論文分析與實務測試||
 | 18	| 期末考||
+
+## LLM Security Scanner
+- https://genai.owasp.org/solution-taxonomy/automated-vulnerability-scanning/
+- OWASP Top 10 for LLM Application Security Project(2023)
+- giskard
+- https://docs.giskard.ai/en/stable/open_source/scan/scan_llm/index.html
