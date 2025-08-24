@@ -3,10 +3,16 @@
 - [Awesome AI Agents](https://github.com/e2b-dev/awesome-ai-agents)
 
 # AI Agent開發環境 | AI Agent Framework
+- https://www.shakudo.io/blog/top-9-ai-agent-frameworks
 - OpenAI Swarm
 - LangGraph
+- Langflow
 - 微軟AutoGen
 - CrewAI
+- Hugging Face Transformers Agents
+- RASA
+- Semantic Kernel
+- Atomic Agents (Javascript)
 - Manus Agent
 
 # AI 代理
