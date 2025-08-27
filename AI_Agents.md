@@ -50,6 +50,10 @@
 - 8結論
 
 ## 參考書籍
+- [AI Agent 奇幻旅程：MCP 通往異世界金鑰（含最新 OpenAI GPT-5 範例）](https://www.tenlong.com.tw/products/9786264142922)
+  - https://github.com/iangithub/mcpbooktemp
+  - 使用 uv 輔助開發 MCP 伺服器並安裝到 Claude Desktop 與 VS Code
+  - https://blog.miniasp.com/post/2025/04/01/Write-your-own-MCP-server-using-uv-and-Python
 - [Building Generative AI Agents: Using LangGraph, AutoGen, and CrewAI(2025)|Tom Taulli, Gaurav Deshmukh](https://learning.oreilly.com/library/view/building-generative-ai/9798868811340/)
 - [Building Applications with AI Agents(2025)|Michael Albada](https://learning.oreilly.com/library/view/building-applications-with/9781098176495/)
   - https://github.com/michaelalbada/BuildingApplicationsWithAIAgents 
