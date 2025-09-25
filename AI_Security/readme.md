@@ -41,11 +41,17 @@
   - TABLE XVIII: Optimization Strategies for Large Language Models in Cybersecurity
 - AI-Pentest-Benchmark
   - https://github.com/isamu-isozaki/AI-Pentest-Benchmark 
-- Catastrophic Cyber Capabilities Benchmark (3CB)(2024.10)
 - CyberMetric Dataset
   - https://github.com/CyberMetric
   - CyberMetric: A Benchmark Dataset based on Retrieval-Augmented Generation for Evaluating LLMs in Cybersecurity Knowledge
-    - https://arxiv.org/abs/2402.07688 
+    - https://arxiv.org/abs/2402.07688
+- Cybench: A Framework for Evaluating Cybersecurity Capabilities and Risks of Language Models
+  - https://arxiv.org/abs/2408.08926
+  - https://cybench.github.io/ 
+- Catastrophic Cyber Capabilities Benchmark (3CB)(2024.10)
+  - https://cybercapabilities.org/
+  - Catastrophic Cyber Capabilities Benchmark (3CB): Robustly Evaluating LLM Agent Cyber Offense Capabilities
+    - https://arxiv.org/abs/2410.09114  
 - CyberSecEval 1 
 
 
