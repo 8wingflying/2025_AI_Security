@@ -59,6 +59,7 @@
 
 ## Test
 - Teams of LLM Agents can Exploit Zero-Day Vulnerabilities
+  - https://arxiv.org/abs/2406.01637 
 - Towards Automated Penetration Testing: Introducing LLM Benchmark, Analysis, and Improvements
   - https://arxiv.org/abs/2410.17141
 - From Capabilities to Performance: Evaluating Key Functional Properties of LLM Architectures in Penetration Testing
