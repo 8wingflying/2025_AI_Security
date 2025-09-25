@@ -17,6 +17,10 @@
 
 ## Benchmark
 - See https://arxiv.org/pdf/2405.12750
+  - TABLE I: Summary of Related Reviews on Large Language Models
+  - TABLE II: RNN-based models for Cyber Security
+  - TABLE III: Transformer-based models for Cyber Security (Part I).
+  - TABLE IV: Transformer-based models for Cyber Security (Part II)
   - Fig. 4: LLM-based Solutions for Cyber Security Use Cases.
   - TABLE V: Comparison of Large Language Models
   - TABLE VIII: Comparison of 19 LLMs Models’ Performance in Hardware Security Knowledge
