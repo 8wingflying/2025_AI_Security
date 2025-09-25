@@ -43,7 +43,9 @@
   - https://github.com/isamu-isozaki/AI-Pentest-Benchmark 
 - Catastrophic Cyber Capabilities Benchmark (3CB)(2024.10)
 - CyberMetric Dataset
-  - https://github.com/CyberMetric 
+  - https://github.com/CyberMetric
+  - CyberMetric: A Benchmark Dataset based on Retrieval-Augmented Generation for Evaluating LLMs in Cybersecurity Knowledge
+    - https://arxiv.org/abs/2402.07688 
 - CyberSecEval 1 
 
 
