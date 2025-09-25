@@ -17,6 +17,8 @@
   - https://arxiv.org/abs/2405.12750
 - Review of Generative AI Methods in Cybersecurity
   - https://arxiv.org/abs/2403.08701v1
+- A survey of large language models in cybersecurity
+  - https://arxiv.org/abs/2402.16968
 
 ## Project
 - PentestGPT(2023.8)
@@ -57,4 +59,7 @@
 
 ## Test
 - Teams of LLM Agents can Exploit Zero-Day Vulnerabilities
-- 
+- Towards Automated Penetration Testing: Introducing LLM Benchmark, Analysis, and Improvements
+  - https://arxiv.org/abs/2410.17141
+- From Capabilities to Performance: Evaluating Key Functional Properties of LLM Architectures in Penetration Testing
+  - https://arxiv.org/abs/2509.14289 
