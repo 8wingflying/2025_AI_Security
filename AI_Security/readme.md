@@ -1,4 +1,16 @@
 # Generative AI in Cybersecurity
+- (1) Threat Detection and Analysis
+- (2) Phishing Detection and Respons
+- (3) Incident Response
+- (4) Security Automation
+- (5) Cyber Forensics
+- (6) Chatbots
+- (7) Penetration Testing
+- (8) Security Protocols Verification
+- (9) Security Training and Awareness:
+  - LLMs can generate training materials tailored to an organization’s needs.
+  - They can also simulate phishing attacks and other security scenarios to train employees to recognize and respond to security threats 
+
 
 ## Review
 - Generative AI in Cybersecurity: A Comprehensive Review of LLM Applications and Vulnerabilities
