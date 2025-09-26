@@ -11,7 +11,11 @@
   - LLMs can generate training materials tailored to an organization’s needs.
   - They can also simulate phishing attacks and other security scenarios to train employees to recognize and respond to security threats 
 
-
+## Related
+- AEAS: Actionable Exploit Assessment System 可操作漏洞評估系統
+  - https://arxiv.org/abs/2509.17832 
+- [EPSS](EPSS.md) 的全稱是 Exploit Prediction Scoring System，即「漏洞利用預測評分系統」
+  - https://www.first.org/epss/
 ## Review
 - Generative AI in Cybersecurity: A Comprehensive Review of LLM Applications and Vulnerabilities
   - https://arxiv.org/abs/2405.12750
@@ -19,16 +23,25 @@
   - https://arxiv.org/abs/2403.08701v1
 - A survey of large language models in cybersecurity
   - https://arxiv.org/abs/2402.16968
-
+- Generative AI for pentesting: the good, the bad, the ugly
+  - https://link.springer.com/article/10.1007/s10207-024-00835-x 
 ## Project
 - PentestGPT(2023.8)
+- CIPHER: Cybersecurity Intelligent Penetration-Testing Helper for Ethical Researcher
+  - https://www.mdpi.com/1424-8220/24/21/6878 
 - AutoAttacker(2024.3)
 - PTHelper(2024.6)
 - BreachSeek(2024.9)
 - PentestAgent(2024.11)
+  - https://github.com/GH05TCREW/PentestAgent 
 - HackSynth(2024.12)
 - AutoPentest(2025.5)
-
+- xOffense: An AI-driven autonomous penetration testing framework with offensive knowledge-enhanced LLMs and multi agent systems
+  - https://arxiv.org/abs/2509.13021 
+- Guided Reasoning in LLM-Driven Penetration Testing Using Structured Attack Trees
+  - https://arxiv.org/abs/2509.07939 
+- Shell or Nothing: Real-World Benchmarks and Memory-Activated Agents for Automated Penetration Testing
+  - https://arxiv.org/abs/2509.09207 
 ## Benchmark
 - See https://arxiv.org/pdf/2405.12750
   - TABLE I: Summary of Related Reviews on Large Language Models
@@ -52,12 +65,21 @@
   - https://cybench.github.io/ 
 - Catastrophic Cyber Capabilities Benchmark (3CB)(2024.10)
   - https://cybercapabilities.org/
+  - https://github.com/apartresearch/3cb
   - Catastrophic Cyber Capabilities Benchmark (3CB): Robustly Evaluating LLM Agent Cyber Offense Capabilities
     - https://arxiv.org/abs/2410.09114  
-- CyberSecEval 1 
-
+- CyberSecEval 1
+- CyberSecEval 2(2024.4)
+  - CyberSecEval 2: A Wide-Ranging Cybersecurity Evaluation Suite for Large Language Models
+  - https://arxiv.org/abs/2404.13161
+  - https://github.com/meta-llama/PurpleLlama/tree/main/CybersecurityBenchmarks
+- CYBERSECEVAL 3
+  - CYBERSECEVAL 3: Advancing the Evaluation of Cybersecurity Risks and Capabilities in Large Language Models
+  - https://www.researchgate.net/publication/382884750_CYBERSECEVAL_3_Advancing_the_Evaluation_of_Cybersecurity_Risks_and_Capabilities_in_Large_Language_Models
+  - https://arxiv.org/pdf/2408.01605?
 
 ## Test
+- https://github.com/meta-llama/PurpleLlama
 - Teams of LLM Agents can Exploit Zero-Day Vulnerabilities
   - https://arxiv.org/abs/2406.01637 
 - Towards Automated Penetration Testing: Introducing LLM Benchmark, Analysis, and Improvements
