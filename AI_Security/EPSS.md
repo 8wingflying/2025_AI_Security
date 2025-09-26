@@ -1,0 +1,25 @@
+## EPSS
+- Exploit Prediction Scoring System，「漏洞利用預測評分系統」。
+- 這是一個基於數據的預測性系統，透過分析大量資料（如 CVE 漏洞和真實世界的利用數據），為軟體漏洞評估一個預測分數，以量化該漏洞在未來 30 天內被實際利用的可能性。
+- 這個分數介於 0 到 1 之間（或 0% 到 100%），分數越高表示漏洞越有可能被攻擊者利用。 
+- EPSS 的作用與意義
+  - 協助漏洞管理：EPSS 提供一個數據驅動的預測能力，讓資安專業人員能夠更有效地預測哪些漏洞最可能被利用，從而優先處理並減少攻擊面。
+  - 提高安全效率：在有限的資源下，組織可以利用 EPSS 的分數來優化補丁和修復工作的優先級，確保最關鍵的漏洞得到及時處理。
+  - 資料導向的決策：EPSS 結合了現有的威脅資訊和真實世界的利用數據，提供了一個客觀且持續更新的評估工具。 
+- 如何運作
+  - 數據來源： EPSS 蒐集並分析有關軟體漏洞和實際利用數據的資訊。
+  - 預測模型： 利用先進的演算法和模型，對這些數據進行分析，預測漏洞在未來被利用的可能性。
+  - 評分機制： 為每一個已知的 CVE 漏洞提供一個介於 0 和 1（或 0% 和 100%）之間的機率分數。
+- 總結來說，EPSS 是一個關鍵的資安工具，能夠預測軟體漏洞的利用情況，幫助企業更智慧地管理和優先處理其安全風險。
+## EPSS
+- https://www.first.org/epss/
+- Exploit Prediction Scoring System (EPSS)(2019.8)
+  - https://arxiv.org/abs/1908.04856 
+- Efficacy of EPSS in High Severity CVEs found in KEV(2024.11)
+  - https://arxiv.org/abs/2411.02618v1
+  - 漏洞預測評分系統 (EPSS) 旨在評估某個漏洞在未來 30 天內相對於其他漏洞被利用的機率。
+  - 最新版本是基於 arXiv 上發表的一篇研究論文，旨在幫助防禦者確定哪些漏洞需要優先修復。
+  - 本研究評估了 EPSS 在漏洞被主動利用之前預測漏洞利用的能力，重點在於已知已被利用並被納入 CISA KEV 目錄的高嚴重性 CVE。
+  - 透過分析 EPSS 評分歷史、漏洞利用的可用性和簡易性、系統用途及其作為威脅行為者 (TA) 目標的價值，本文探討了 EPSS 的潛力並確定了需要改進的領域。 
+- https://zh-tw.tenable.com/blog/epss-shows-strong-performance-in-predicting-exploits-says-study-from-cyentia-and-first
+- https://zh-tw.tenable.com/analyst-research/a-visual-exploration-of-exploitation-in-the-wild
