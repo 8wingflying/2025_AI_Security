@@ -1,0 +1,54 @@
+# LLM
+- LLM
+  - Contemporary Transformer Models 三大類型
+  - `1`.純 decoder架構
+  - `2`.純 encoder架構
+  - `3`.encoder-decoder 架構
+  - [大模型技術 30講 Machine Learning Q and AI](https://www.tenlong.com.tw/products/9787115659835?list_name=e-llm-2024)
+    - [Machine Learning Q and AI](https://learning.oreilly.com/library/view/machine-learning-q/9781098168827/)
+    - 第9章　生成式AI模型==>
+      - 9.1　生成式模型與判別式模型 
+      - 9.2　深度生成式模型的類型
+    - 17.4　當代Transformer模型 
+- LLM Engineering
+  - 如何善用與調教LLM Model 
+- LLM Applications開發 
+- Datasets
+  - 202402[Dolma: an Open Corpus of Three Trillion Tokens for Language Model Pretraining Research](https://arxiv.org/abs/2402.00159) 
+## 導讀
+- “LLMs from Scratch” series — a complete guide to understanding and building Large Language Models.
+  - [Part 1: Tokenization — A Complete Guide](https://medium.com/p/cedc9f72de4e)
+  - Part 2: Word Embeddings with word2vec from Scratch in Python
+  - Part 3: Self-Attention Explained with Code
+  - [Part 4: A Complete Guide to BERT with Code](https://towardsdatascience.com/a-complete-guide-to-bert-with-code-9f87602e4a11/)
+  - Part 5: Mistral 7B Explained: Towards More Efficient Language Models
+
+## 延伸閱讀:Large Language Model
+- BOOK1[讓 AI 好好說話！從頭打造 LLM (大型語言模型) 實戰秘笈](https://www.tenlong.com.tw/products/9789863128236?list_name=sp)
+  - [Build a Large Language Model (From Scratch)(2024)](https://learning.oreilly.com/library/view/build-a-large/9781633437166/)
+  - [BOOK1筆記](BOOK1筆記.md)
+  - 第 1章 理解大語言模型
+  - 第 2章 處理文本資料
+    - 2.1 詞嵌入 (Word Embedding，或稱詞向量)
+    - 2.2 文本斷詞 (Tokenize)
+    - 2.3 將 token 轉換為 token ID
+    - 2.4 添加特殊 token
+    - 2.5 字節對編碼 (Byte Pair Encoding, BPE)
+    - 2.6 使用滑動視窗法 (Sliding Window) 進行資料取樣
+    - 2.7 創建 token 嵌入 (Embedding)
+    - 2.8 位置資訊的編碼 
+  - 第 3章 實作注意力機制
+  - 第 4章 從零實作 GPT 模型以生成文本
+  - 第 5章 使用無標籤的資料集進行預訓練
+  - 第 6章 分類任務微調
+    - 6.1 常見的 2 種微調類型
+  - 第 7章 指令微調  Fine-tuning to follow instructions==> 通過微調遵循人類指令
+- [Hands-On Large Language Models(2024)](https://learning.oreilly.com/library/view/hands-on-large-language/9781098150952/)
+  - [章節內容](LLM_BOOK_Content.md) 
+- [大語言模型工程師手冊：從概念到生產實踐](https://www.tenlong.com.tw/products/9787115667373?list_name=srh)
+  - [LLM Engineer's Handbook: Master the art of engineering large language models from concept to production](https://www.tenlong.com.tw/products/9787115667373?list_name=srh)
+- [Designing Large Language Model Applications(2025)](https://learning.oreilly.com/library/view/designing-large-language/9781098150495/)
+- [The Developer's Playbook for Large Language Model Security(2024)](https://learning.oreilly.com/library/view/the-developers-playbook/9781098162191/)
+- [Prompt Engineering for LLMs](https://learning.oreilly.com/library/view/prompt-engineering-for/9781098156145/)
+- [Prompt Engineering for Generative AI](https://learning.oreilly.com/library/view/prompt-engineering-for/9781098153427/)
+
