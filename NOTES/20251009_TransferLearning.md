@@ -6,7 +6,9 @@
     - InceptionV3 
   - VGG16  VGG19
   - Resnet
-    - 
+    - resnet
+    - resnet50
+    - resnet_v2
   - Densenet
     - DenseNet121(...)
     - DenseNet169(...)
@@ -14,6 +16,8 @@
   - tf.keras.applications沒有實做的模型請到 [Tensodflow HUB](https://www.tensorflow.org/hub)
     - 請看如何使用這些模型 [Transfer learning with TensorFlow Hub](https://www.tensorflow.org/tutorials/images/transfer_learning_with_hub)
 - (B)如何使用這些模型(Transfer Learning)
+  - CASE 1:只改訓練層
+  - CASE 2:改最後convolution Layer
 
 ## Transfer Learning
 - 必做 [Transfer learning and fine-tuning](https://www.tensorflow.org/tutorials/images/transfer_learning)
