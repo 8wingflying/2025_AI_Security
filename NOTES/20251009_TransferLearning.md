@@ -1,11 +1,11 @@
 # 重點
 - (A)檢視重要模型
+  - 說明 tf.keras.applications
+  - 
   - Google InceptionV3
   - VGG16  VGG19
   - Resnet
-    - DenseNet121(...)
-    - DenseNet169(...)
-    - DenseNet201(...)
+    - 
   - Densenet
     - DenseNet121(...)
     - DenseNet169(...)
@@ -14,6 +14,7 @@
 
 ## Transfer Learning
 - 必做 [Transfer learning and fine-tuning](https://www.tensorflow.org/tutorials/images/transfer_learning)
+- [Transfer learning with TensorFlow Hub](https://www.tensorflow.org/tutorials/images/transfer_learning_with_hub)
 - 資料擴增 [Data augmentation](https://www.tensorflow.org/tutorials/images/data_augmentation)
 ## 檢視重要模型1;Google INception
 ```python
