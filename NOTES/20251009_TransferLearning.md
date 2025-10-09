@@ -1,11 +1,20 @@
 # 重點
-- 檢視重要模型
+- (A)檢視重要模型
   - Google InceptionV3
   - VGG16  VGG19
   - Resnet
-  - Densenet 
-- 如何使用這些模型(Transfer Learning)
+    - DenseNet121(...)
+    - DenseNet169(...)
+    - DenseNet201(...)
+  - Densenet
+    - DenseNet121(...)
+    - DenseNet169(...)
+    - DenseNet201(...)
+- (B)如何使用這些模型(Transfer Learning)
 
+## Transfer Learning
+- 必做 [Transfer learning and fine-tuning](https://www.tensorflow.org/tutorials/images/transfer_learning)
+- 資料擴增 [Data augmentation](https://www.tensorflow.org/tutorials/images/data_augmentation)
 ## 檢視重要模型1;Google INception
 ```python
 import numpy as np
