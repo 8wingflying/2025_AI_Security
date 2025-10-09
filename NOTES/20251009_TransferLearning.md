@@ -1,8 +1,9 @@
 # 重點
 - (A)檢視重要模型
-  - 說明 tf.keras.applications
-  - 
+  - 說明有哪些模型的實作 [tf.keras.applications](https://www.tensorflow.org/api_docs/python/tf/keras/applications) 至少要有底下的模型
   - Google InceptionV3
+    - inception_resnet_v2
+    - InceptionV3 
   - VGG16  VGG19
   - Resnet
     - 
@@ -10,6 +11,8 @@
     - DenseNet121(...)
     - DenseNet169(...)
     - DenseNet201(...)
+  - tf.keras.applications沒有實做的模型請到 [Tensodflow HUB](https://www.tensorflow.org/hub)
+    - 請看如何使用這些模型 [Transfer learning with TensorFlow Hub](https://www.tensorflow.org/tutorials/images/transfer_learning_with_hub)
 - (B)如何使用這些模型(Transfer Learning)
 
 ## Transfer Learning
