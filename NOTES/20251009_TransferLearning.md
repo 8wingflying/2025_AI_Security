@@ -16,7 +16,8 @@ import tensorflow as tf
 ```
 
 ## 如何使用這些模型(Transfer Learning) 1
-
+- 要訓練的 ==>  分類器
+- 其他都不訓練
 ```python
 # ---- 建立並訓練密集層分類器 ---- #
 
@@ -123,7 +124,8 @@ import os
 os.chdir('/content/drive/My Drive/TF2020')
 #os.chdir('..')
 ```
-## 
+## 如何使用這些模型(Transfer Learning) 2 Fine-Tunning
+- 要訓練的 ==> 最後的CoVlution(第五層) 與 分類器
 ```python
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Dense, Dropout, Flatten
