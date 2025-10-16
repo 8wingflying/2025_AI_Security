@@ -8,6 +8,9 @@
 - https://medium.com/data-science/illustrated-guide-to-lstms-and-gru-s-a-step-by-step-explanation-44e9eb85bf21
 - https://d2l.ai/chapter_recurrent-modern/lstm.html
 - [Understanding LSTM -- a tutorial into Long Short-Term Memory Recurrent Neural Networks](https://arxiv.org/abs/1909.09586)
+- MIT 6.S191: Recurrent Neural Networks, Transformers, and Attention
+  - https://www.youtube.com/watch?v=GvezxUdLrEk
+  - https://introtodeeplearning.com/ 
 ## Transformer
 - 2017 經典論文[[1706.03762] Attention Is All You Need](https://arxiv.org/abs/1706.03762)
 - https://jalammar.github.io/illustrated-transformer/
