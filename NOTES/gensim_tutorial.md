@@ -1,0 +1,125 @@
+# 🧠 Gensim 套件完整教學指南
+
+## 一、Gensim 是什麼？
+
+**Gensim**（**Generate Similar** 的縮寫）是一個以 **Python** 編寫的開源自然語言處理（NLP）套件，專門用於：
+- **主題建模（Topic Modeling）**
+- **文件相似度分析（Document Similarity Analysis）**
+- **詞向針訓練（Word Embedding Training）**
+
+它的核心設計理念是：
+> 「能夠在大規模文本上進行語意分析，而不需將所有資料載入記憶體。」
+
+---
+
+## 二、主要功能模組
+
+| 模組 | 功能說明 | 常用方法 |
+|------|-----------|-----------|
+| `gensim.corpora` | 建立詞典（Dictionary）與語料（Corpus） | `Dictionary()`, `doc2bow()` |
+| `gensim.models` | 各種模型，如 TF-IDF、Word2Vec、Doc2Vec、LDA、LSI 等 | `TfidfModel`, `Word2Vec`, `LdaModel`, `LsiModel`, `Doc2Vec` |
+| `gensim.similarities` | 計算文件或詞向針的相似度 | `MatrixSimilarity`, `SparseMatrixSimilarity` |
+| `gensim.downloader` | 下載預訓練模型（如 GoogleNews Word2Vec） | `api.load()` |
+| `gensim.utils` | 各種文字處理輔助工具 | `simple_preprocess`, `tokenize` |
+
+---
+
+## 三、典型應用範例
+
+### 1️⃣ 主題建模（Topic Modeling）
+
+使用 **LDA (Latent Dirichlet Allocation)** 模型找出文件中的隱含主題：
+
+```python
+from gensim import corpora, models
+
+texts = [["human", "interface", "computer"], ["survey", "user", "computer", "system"]]
+dictionary = corpora.Dictionary(texts)
+corpus = [dictionary.doc2bow(text) for text in texts]
+
+lda = models.LdaModel(corpus, num_topics=2, id2word=dictionary)
+topics = lda.print_topics(num_words=3)
+print(topics)
+```
+
+---
+
+### 2️⃣ 詞向針訓練（Word Embedding）
+
+使用 **Word2Vec** 訓練模型，捕捉詞語間的語意關係：
+
+```python
+from gensim.models import Word2Vec
+
+sentences = [["cat", "say", "meow"], ["dog", "say", "woof"]]
+model = Word2Vec(sentences, vector_size=50, min_count=1)
+print(model.wv.most_similar("cat"))
+```
+
+---
+
+### 3️⃣ 文件相似度分析（Document Similarity）
+
+使用 **TF-IDF + 相似度矩陣** 計算文件相似程度：
+
+```python
+from gensim import similarities, models
+
+tfidf = models.TfidfModel(corpus)
+index = similarities.MatrixSimilarity(tfidf[corpus])
+similarity = index[tfidf[corpus[0]]]
+print(list(enumerate(similarity)))
+```
+
+---
+
+## 四、Gensim 支援的主要模型
+
+| 模型名稱 | 功能 | 說明 |
+|-----------|------|------|
+| **TF-IDF (TfidfModel)** | 權重化文字特徵 | 統計詞頻與逆文件頻率 |
+| **LDA (LdaModel)** | 主題建模 | 找出文本中的主題分佈 |
+| **LSI / LSA (LsiModel)** | 語義索引 | 透過奇異值分解進行語義降維 |
+| **Word2Vec** | 詞向針模型 | 捕捉語意相似性 |
+| **Doc2Vec** | 文件向針模型 | 將整份文件嵌入向針空間 |
+| **FastText** | 子詞級詞向針模型 | 可處理未出現的新詞（OOV） |
+| **HDPA / RP / NMF** | 進階主題模型 | 各類非負矩陣分解或階層模型 |
+
+---
+
+## 五、Gensim 的優勢
+
+✅ **記憶體效率高**：採用「串流式（streaming）」讀取，能處理大型語料。  
+✅ **支援多模型整合**：可無縫結合 LDA、TF-IDF、Word2Vec。  
+✅ **與其他工具相容性佳**：能與 **NLTK、spaCy、scikit-learn** 搭配使用。  
+✅ **提供預訓練模型**：例如 `glove-wiki-gigaword-100`、`word2vec-google-news-300`。
+
+---
+
+## 六、安裝與測試
+
+安裝：
+```bash
+pip install gensim
+```
+
+確認版本：
+```python
+import gensim
+print(gensim.__version__)
+```
+
+---
+
+## 七、應用延伸
+
+- **文件聚類（Document Clustering）**
+- **語意搜尋（Semantic Search）**
+- **知識檢索（Information Retrieval）**
+- **Chatbot 語料理解**
+- **社群辟情分析（Sentiment & Topic Monitoring）**
+
+---
+
+📘 **作者註：**
+> 本文件適用於教學、研究與專案開發環境，可搭配 NLTK、spaCy、Scikit-learn 或 Hugging Face 模型一同使用，以建立完整的 NLP 管線。
