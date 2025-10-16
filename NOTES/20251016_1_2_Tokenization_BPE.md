@@ -1,4 +1,8 @@
-# BPE（Byte Pair Encoding）子詞編碼教學筆記
+# BPE（Byte Pair Encoding）子詞編碼
+- https://zhuanlan.zhihu.com/p/424631681
+- https://www.geeksforgeeks.org/nlp/byte-pair-encoding-bpe-in-nlp/
+- https://ml-digest.com/byte-pair-encoding-bpe/
+- https://www.youtube.com/watch?v=NrT5kmnTFCk
 
 ## 一、BPE 的核心概念
 BPE（Byte Pair Encoding，字節對編碼）是一種常用於**自然語言處理（NLP）**與**大型語言模型（LLM）**的**子詞分詞法**。其目標是在「字詞級」與「字元級」之間取得平衡，透過頻率統計逐步合併高頻字元對，形成更穩定的詞彙表。
