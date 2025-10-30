@@ -49,10 +49,59 @@ x_test = pad_sequences(x_test, maxlen=maxlen)
 
 ---
 
+- 多層 GRU 模型
+```
+# 3️⃣ 建立多層 GRU 模型
+model = Sequential([
+    Embedding(vocab_size, 128, input_length=maxlen),
+    
+    # 第一層 GRU：返回完整序列 (為了堆疊)
+    GRU(128, dropout=0.3, recurrent_dropout=0.3, return_sequences=True),
+    
+    # 第二層 GRU：更高層語意抽象
+    GRU(64, dropout=0.3, recurrent_dropout=0.3),
+    
+    # 全連接層 + Dropout
+    Dense(64, activation='relu'),
+    Dropout(0.4),
+    Dense(1, activation='sigmoid')
+])
+```
+- 雙向GRU(Bidirectional GRU)
+```
+model = Sequential([
+    Embedding(vocab_size, 128, input_length=maxlen),
+    Bidirectional(GRU(128, dropout=0.3, recurrent_dropout=0.3, return_sequences=True)),
+    Bidirectional(GRU(64, dropout=0.3, recurrent_dropout=0.3)),
+    Dense(64, activation='relu'),
+    Dropout(0.4),
+    Dense(1, activation='sigmoid')
+])
+```
+- 建立雙向 LSTM 模型
+```python
+# 3️⃣ 建立雙向 LSTM 模型
+model = Sequential([
+    Embedding(vocab_size, 128, input_length=maxlen),
+
+    # 雙向 LSTM 第一層
+    Bidirectional(LSTM(128, dropout=0.3, recurrent_dropout=0.3, return_sequences=True)),
+
+    # 雙向 LSTM 第二層
+    Bidirectional(LSTM(64, dropout=0.3, recurrent_dropout=0.3)),
+
+    # 全連接層 + Dropout
+    Dense(64, activation='relu'),
+    Dropout(0.4),
+    Dense(1, activation='sigmoid')
+])
+```
 ## 🧠 四、建立 LSTM 模型
 ```python
 model = Sequential([
     Embedding(vocab_size, embedding_dim, input_length=maxlen),
+#
+#   GRU(64, dropout=0.2, recurrent_dropout=0.2),
     LSTM(128, dropout=0.2, recurrent_dropout=0.2),
     Dense(1, activation='sigmoid')
 ])
