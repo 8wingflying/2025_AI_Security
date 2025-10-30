@@ -1,4 +1,17 @@
 ## 報告1:自然語言實戰
+- 自然語言理解 主題
+  - 情感分析(Sentiment Analysis) ==> Binary classification ==> Multiclass classification 
+  - Text classification (TC) 主題分類 ==> Multiclass vs Multi-label
+  - Text Generation
+  - Machine Translation(機器翻譯)
+- NLP-1自然語言前處理 Tokenization ==>
+- NLP-2 word == > Vector
+- NLP-3 傳統序列模型：RNN、LSTM、GRU
+- NLP-4 Transformer 架構
+- NLP-5 LLM 預訓練語言模型== >
+- NLP-6 LLM Fine-Tunning
+
+
 
 ## 報告2:Time series analysis using Custom-build LLM
 - ETF analysis using Deep learning
