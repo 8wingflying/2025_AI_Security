@@ -2,9 +2,10 @@
 - 自然語言理解 主題
   - 情感分析(Sentiment Analysis) ==> Binary classification ==> Multiclass classification 
   - Text classification (TC) 主題分類 ==> Multiclass vs Multi-label
+    - 股票分析  名嘴  投顧 
   - Text Generation
   - Machine Translation(機器翻譯)
-- NLP-1自然語言前處理 Tokenization ==>
+- NLP-1 自然語言前處理 Tokenization ==>
 - NLP-2 word == > Vector
 - NLP-3 傳統序列模型：RNN、LSTM、GRU
 - NLP-4 Transformer 架構
