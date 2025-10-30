@@ -16,6 +16,8 @@
 
 ## 報告2:Time series analysis using Custom-build LLM
 - ETF analysis using Deep learning
+- 參考資料
+  - 時空序列分析-關鍵籌碼分析 系列 https://ithelp.ithome.com.tw/users/20168322/ironman/7065 
 - 使用套件
   - https://www.finlab.tw/python-taiwan-stock-market-selection/
   - 移動平均線 (MA)：計算特定期間內的平均價格，有助於識別趨勢。
