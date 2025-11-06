@@ -59,7 +59,8 @@
   - 2019 DistilBERT
     - knowledge Distillation 知識蒸餾 
     - 【論文】[DistilBERT, a distilled version of BERT: smaller, faster, cheaper and lighter](https://arxiv.org/abs/1910.01108)
-    - 👍👍👍[A Visual Guide to Using BERT for the First Time](https://jalammar.github.io/a-visual-guide-to-using-bert-for-the-first-time/) 
+    - 👍👍👍[A Visual Guide to Using BERT for the First Time](https://jalammar.github.io/a-visual-guide-to-using-bert-for-the-first-time/)
+    - [Hands-On Large Language Models](https://www.oreilly.com/library/view/hands-on-large-language/9781098150952/ch03.html)
   - 2018 GPT
     - GPT-1
     -  [https://cdn.openai.com/research-covers/language-unsupervised/language_understanding_paper.pdf]()
