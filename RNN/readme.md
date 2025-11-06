@@ -56,7 +56,10 @@
 - `5`.[Pre-Trained Language Models](Pre-Trained_Language_Models.md) ==> LLM
   - **2018 BERT Bidirectional Encoder Representations from Transforme**
     - 【經典論文】[[1810.04805] BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://arxiv.org/abs/1810.04805)
-  - 👍2019[DistilBERT, a distilled version of BERT: smaller, faster, cheaper and lighter](https://arxiv.org/abs/1910.01108)
+  - 2019 DistilBERT
+    - knowledge Distillation 知識蒸餾 
+    - 【論文】[DistilBERT, a distilled version of BERT: smaller, faster, cheaper and lighter](https://arxiv.org/abs/1910.01108)
+    - 👍👍👍[A Visual Guide to Using BERT for the First Time](https://jalammar.github.io/a-visual-guide-to-using-bert-for-the-first-time/) 
   - 2018 GPT
     - GPT-1
     -  [https://cdn.openai.com/research-covers/language-unsupervised/language_understanding_paper.pdf]()
