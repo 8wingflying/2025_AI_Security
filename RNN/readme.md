@@ -17,12 +17,13 @@
 - `3`.RNN model 
   - Recurrent Neural Networks (RNNs)
     - https://www.geeksforgeeks.org/introduction-to-recurrent-neural-network/
+    - https://readmedium.com/animated-rnn-lstm-and-gru-ef124d06cf45
   - Vanilla RNN
   - LSTM|Long Short-Term Memory|長短期記憶(1997)
     - Problem with Long-Term Dependencies in RNN
       - Vanishing Gradient
       - Exploding Gradient 
-    - 👍【導讀】[Understanding LSTM Networks(2015)](https://colah.github.io/posts/2015-08-Understanding-LSTMs/)
+    - 👍👍👍【導讀】[Understanding LSTM Networks(2015)](https://colah.github.io/posts/2015-08-Understanding-LSTMs/)
     - https://www.geeksforgeeks.org/deep-learning-introduction-to-long-short-term-memory/
     - https://ithelp.ithome.com.tw/articles/10193924 
   - GRU | Gated Recurrent Unit(2014)
@@ -41,7 +42,7 @@
   - Attention
     - 2014【經典論文】[Neural Machine Translation by Jointly Learning to Align and Translate](https://arxiv.org/abs/1409.0473)
     - 2015【經典論文】[Effective Approaches to Attention-based Neural Machine Translation](https://arxiv.org/abs/1508.04025)
-    - 👍【導讀】[Visualizing A Neural Machine Translation Model (Mechanics of Seq2seq Models With Attention)](https://jalammar.github.io/visualizing-neural-machine-translation-mechanics-of-seq2seq-models-with-attention/)
+    - 👍👍👍【導讀】[Visualizing A Neural Machine Translation Model (Mechanics of Seq2seq Models With Attention)](https://jalammar.github.io/visualizing-neural-machine-translation-mechanics-of-seq2seq-models-with-attention/)
     - 【導讀】 ==> 28. 注意力機制（Attention mechanism）
     - 【導讀】 https://en.wikipedia.org/wiki/Attention_(machine_learning)
     - https://machinelearningmastery.com/the-attention-mechanism-from-scratch/
@@ -50,10 +51,11 @@
     - 👍👍【經典論文】[Attention Is All You Need](https://arxiv.org/abs/1706.03762)
     - 【論文】[[1607.06450] Layer Normalization | Jimmy Lei Ba, Jamie Ryan Kiros, Geoffrey E. Hinton](https://arxiv.org/abs/1607.06450)
     - 【導讀】[The Illustrated Transformer](https://jalammar.github.io/illustrated-transformer/)
-    - 【模型應用】[Transformer_HuggingFace範例](Transformer_HuggingFace範例.md)
+    - 👍👍👍【模型應用】[Transformer_HuggingFace範例](Transformer_HuggingFace範例.md)
 - `5`.[Pre-Trained Language Models](Pre-Trained_Language_Models.md) ==> LLM
   - **2018 BERT Bidirectional Encoder Representations from Transforme**
     - 【經典論文】[[1810.04805] BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://arxiv.org/abs/1810.04805)
+  - 👍2019[DistilBERT, a distilled version of BERT: smaller, faster, cheaper and lighter](https://arxiv.org/abs/1910.01108)
   - 2018 GPT
     - GPT-1
     -  [https://cdn.openai.com/research-covers/language-unsupervised/language_understanding_paper.pdf]()
