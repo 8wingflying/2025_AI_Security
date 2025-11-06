@@ -17,7 +17,7 @@
 - `3`.RNN model 
   - Recurrent Neural Networks (RNNs)
     - https://www.geeksforgeeks.org/introduction-to-recurrent-neural-network/
-    - https://readmedium.com/animated-rnn-lstm-and-gru-ef124d06cf45
+    - 有趣的動畫https://readmedium.com/animated-rnn-lstm-and-gru-ef124d06cf45
   - Vanilla RNN
   - LSTM|Long Short-Term Memory|長短期記憶(1997)
     - Problem with Long-Term Dependencies in RNN
@@ -25,6 +25,7 @@
       - Exploding Gradient 
     - 👍👍👍【導讀】[Understanding LSTM Networks(2015)](https://colah.github.io/posts/2015-08-Understanding-LSTMs/)
     - https://www.geeksforgeeks.org/deep-learning-introduction-to-long-short-term-memory/
+    - https://www.geeksforgeeks.org/machine-learning/understanding-of-lstm-networks/
     - https://ithelp.ithome.com.tw/articles/10193924 
   - GRU | Gated Recurrent Unit(2014)
     - https://zhuanlan.zhihu.com/p/20310288990
@@ -105,6 +106,22 @@
 ### 其他分析
 - [NLP Text Preprocessing Tutorial](https://www.kaggle.com/code/rudraneelsannigrahi/nlp-text-preprocessing-tutorial)
 
+## DistilBERT
+- https://huggingface.co/docs/transformers/model_doc/distilbert
+```python
+from transformers import pipeline
+
+classifier = pipeline(
+    task="text-classification",
+    model="distilbert-base-uncased-finetuned-sst-2-english",
+    dtype=torch.float16,
+    device=0
+)
+
+result = classifier("I love using Hugging Face Transformers!")
+print(result)
+# Output: [{'label': 'POSITIVE', 'score': 0.9998}]
+```
 ## 教科書相關章節
 #### 教科書:第15章Processing Sequences Using RNNs and CNNs ==> [時間序列分析](時間序列分析.md)
 - Recurrent Neurons and Layers
