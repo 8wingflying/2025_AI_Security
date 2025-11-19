@@ -3,8 +3,8 @@
 ## MITRE ALTAS
 ## 1. 對照總覽表（Summary Mapping）
 
-| OWASP 編號 | 攻擊名稱（EN） | 攻擊名稱（繁中） | 典型 MITRE ATLAS 技術\* | NIST AI RMF 主要 Function | ISO/IEC 42001 相關主題 |
-|------------|----------------|-------------------|--------------------------|---------------------------|------------------------|
+| 編號 | 攻擊名稱（EN） | 攻擊名稱（繁中） | 典型 MITRE ATLAS 技術\* | NIST AI RMF 主要 Function | ISO/IEC 42001 相關主題 |
+|------------|----------------|-------------------|--------------|---------------------------|------------------------|
 | **ML01:2023** | Input Manipulation Attack | 輸入操控攻擊 | Adversarial Input / Evasion (對抗樣本規避偵測) | **MAP, MEASURE, MANAGE**：情境盤點、健全性測試、風險處置 | 風險管理、模型健全性、監控與修正（Clauses 6, 8, 9, 10） |
 | **ML02:2023** | Data Poisoning Attack | 資料投毒攻擊 | Training Data Poisoning / Prediction Poisoning | **MAP, MEASURE, MANAGE**：資料治理、資料品質與漂移監控、供應鏈控管 | 資料治理、AI 風險管理、供應鏈管理（Clauses 6, 8；附錄控制：資料與供應商管理） |
 | **ML03:2023** | Model Inversion Attack | 模型反演攻擊 | Model Inversion & Training Data Extraction | **GOVERN, MAP, MEASURE**：隱私與機敏度盤點、隱私強化設計與測試 | 隱私與資訊安全、影響評估、法規遵循（Clauses 4, 5, 6, 8） |
