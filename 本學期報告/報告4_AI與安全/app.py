@@ -1,5 +1,54 @@
 import streamlit as st
 
+
+# =========================
+# 🔐 Simple Authentication
+# =========================
+st.set_page_config(page_title="AI 資安測驗系統（含認證）", page_icon="🛡️", layout="wide")
+
+st.title("🛡️ AI × 資安情境測驗系統（含登入認證）")
+
+# Predefined accounts (可改為 DB / env variables)
+VALID_USERS = {
+    "admin": "admin123",
+    "student": "test123",
+    "guest": "guest123"
+}
+
+# Session state for login
+if "authenticated" not in st.session_state:
+    st.session_state.authenticated = False
+if "username" not in st.session_state:
+    st.session_state.username = ""
+
+# Login page
+if not st.session_state.authenticated:
+    st.subheader("🔐 請先登入")
+
+    username = st.text_input("使用者名稱")
+    password = st.text_input("密碼", type="password")
+    login_btn = st.button("登入")
+
+    if login_btn:
+        if username in VALID_USERS and VALID_USERS[username] == password:
+            st.session_state.authenticated = True
+            st.session_state.username = username
+            st.success("登入成功！系統將自動載入...")
+            st.experimental_rerun()
+        else:
+            st.error("❌ 帳號或密碼錯誤，請重新輸入。")
+
+    st.stop()
+
+# =========================
+# 🎉 After Login
+# =========================
+
+st.success(f"👋 歡迎，{st.session_state.username}！您已成功登入系統。")
+
+st.header("📘 測驗系統已啟用")
+st.info("此示範版本包含：登入認證、使用者身份管理。可依需求整合完整題庫。")
+
 st.set_page_config(page_title="AI / 資安情境測驗系統", page_icon="🛡️", layout="wide")
 
 st.title("🛡️ AI × 資安情境測驗系統")
@@ -222,4 +271,5 @@ if st.button("提交答案並查看結果"):
             st.error(f"Q{idx+1} ❌ 錯誤 | 你的答案：{', '.join(user_ans) if user_ans else '（未作答）'} | 正確答案：{', '.join(correct_opts)}")
     st.markdown(f"### 🎯 總分：{correct_count} / {len(scenario['questions'])}")
     if correct_count == len(scenario["questions"]):
+
         st.balloons()
