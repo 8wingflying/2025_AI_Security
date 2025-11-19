@@ -2,6 +2,8 @@
 - AI-powered attack
 - AI-powered defense
 - Attacking AI(Machine Learning)
+  - [MITRE ALTAS](https://atlas.mitre.org/)
+  - OWASP TOP 10  
 ## 自動化滲透測試
 ## AI Detection
 - [An Evaluation Framework for Network IDS/IPS Datasets: Leveraging MITRE ATT&CK and Industry Relevance Metrics](https://arxiv.org/abs/1903.08689)
