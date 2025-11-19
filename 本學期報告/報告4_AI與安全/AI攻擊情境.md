@@ -1,0 +1,43 @@
+## AI 攻擊情境
+- Evasion of Deep Learning Detector for Malware C&C Traffic
+- Botnet Domain Generation Algorithm (DGA) Detection Evasion
+- VirusTotal Poisoning
+- Bypassing Cylance's AI Malware Detection
+- Camera Hijack Attack on Facial Recognition System
+- Attack on Machine Translation Services
+- ClearviewAI Misconfiguration
+- GPT-2 Model Replication
+- ProofPoint Evasion
+- Tay Poisoning
+- Microsoft Azure Service Disruption
+- Microsoft Edge AI Evasion
+- Face Identification System Evasion via Physical Countermeasures
+- Backdoor Attack on Deep Learning Models in Mobile Apps
+- Confusing Antimalware Neural Networks
+- Compromised PyTorch Dependency Chain
+- Achieving Code Execution in MathGPT via Prompt Injection
+- Bypassing ID.me Identity Verification
+- Arbitrary Code Execution with Google Colab
+- PoisonGPT
+- Indirect Prompt Injection Threats: Bing Chat Data Pirate
+- ChatGPT Conversation Exfiltration
+- ChatGPT Package Hallucination
+- ShadowRay
+- Morris II Worm: RAG-Based Attack
+- Web-Scale Data Poisoning: Split-View Attack
+- Financial Transaction Hijacking with M365 Copilot as an Insider
+- Organization Confusion on Hugging Face
+- AI Model Tampering via Supply Chain Attack
+- Google Bard Conversation Exfiltration
+- LLM Jacking
+- Malicious Models on Hugging Face
+- Attempted Evasion of ML Phishing Webpage Detection System
+- Live Deepfake Image Injection to Evade Mobile KYC Verification
+- ProKYC: Deepfake Tool for Account Fraud Attacks
+- Data Exfiltration from Slack AI via Indirect Prompt Injection
+- AIKatz: Attacking LLM Desktop Applications
+- Data Exfiltration via Agent Tools in Copilot Studio
+- Planting Instructions for Delayed Automatic AI Agent Tool Invocation
+- Living Off AI: Prompt Injection via Jira Service Management
+- Hacking ChatGPT’s Memories with Prompt Injection
+- Rules File Backdoor: Supply Chain Attack on AI Coding Ass
