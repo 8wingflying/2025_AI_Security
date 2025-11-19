@@ -10,6 +10,9 @@
 - [使用 Transformer 分析加入早停（Early Stopping）機制](IMDB電影評論情感6.md)
   - 以 Hugging Face Transformers（如 DistilBERT/BERT）微調二元情感分類器，並在 IMDB 影評資料集上評估 Accuracy/F1、混淆矩陣與錯誤分析，加入早停（Early Stopping）機制 提升訓練穩定性與防止過擬合。
 - [使用DistilBERT分析](IMDB電影評論情感4_DistilBERT.md)
+- [使用LLM分析](IMDB電影評論情感5_LLM.md)
+  - LLAMA + LORA
+  - GEMMA 
  
 ## 報告1B:自然語言實戰
 - 自然語言理解 主題
