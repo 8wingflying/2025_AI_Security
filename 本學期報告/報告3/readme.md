@@ -10,7 +10,8 @@ https://github.com/8wingflying/2025_AI_Security/tree/main/%E7%94%9F%E6%88%90%E5%
     - https://github.com/davidADSP/Generative_Deep_Learning_2nd_Edition 
 
 ## 生成深度學習
-【第一篇 認識生成深度學習】
+#### 【第一篇 認識生成深度學習】
+```
 chapter 1　生成建模
 　什麼是生成建模？
 　chapter一個生成式模型
@@ -22,8 +23,9 @@ chapter 2　深度學習
 　深度神經網路
 　多層感知器（MLP）
 　卷積神經網路（CNN）
-
-【第二篇 方法】
+```
+#### 【第二篇 方法】
+```
 chapter 3　變分自動編碼器
 　簡介
 　自動編碼器
@@ -52,8 +54,9 @@ chapter 8　擴散模型
 　簡介
 　降噪擴散模型（DDM）
 　總結
-
-【第三篇 應用】
+```
+#### 【第三篇 應用】
+```
 chapter 9　Transformer
 　簡介
 　GPT
