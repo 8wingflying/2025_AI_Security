@@ -1,6 +1,6 @@
 # IMDB電影評論情感
 - 利用 IMDB 電影評論資料集（IMDb Movie Reviews Dataset），訓練底下模型 來預測影評是正面 (Positive) 還是負面 (Negative)
-  - LSTM 
+
 ## LSTM
 - https://colah.github.io/posts/2015-08-Understanding-LSTMs/
 - [An Empirical Exploration of Recurrent Network Architectures](https://proceedings.mlr.press/v37/jozefowicz15.html)
