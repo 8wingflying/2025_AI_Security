@@ -1,3 +1,10 @@
+## 範例
+- Tensorflow官方範例
+  - DCGAN [Deep Convolutional Generative Adversarial Network]()
+  - [Generate Artificial Faces with CelebA Progressive GAN Model](https://www.tensorflow.org/hub/tutorials/tf_hub_generative_image_module)
+  - [Generating Images with Little Data Using S3GAN](https://www.tensorflow.org/hub/tutorials/s3gan_generation_with_tf_hub)
+  - [Fast Style Transfer for Arbitrary Styles](https://www.tensorflow.org/hub/tutorials/tf2_arbitrary_image_stylization)
+- PyTorch官方範例
 ## Awesome GAN
 - https://github.com/nightrome/really-awesome-gan
 - https://github.com/nashory/gans-awesome-applications
@@ -5,6 +12,7 @@
 - https://github.com/dongb5/GAN-Timeline
 - https://github.com/hindupuravinash/the-gan-zoo
 - https://github.com/hindupuravinash/the-gan-zoo
+
 
 ## review
 - [A survey on GANs for computer vision: Recent research, analysis and taxonomy](https://arxiv.org/abs/2203.11242)
@@ -88,12 +96,12 @@
   - Video: https://youtu.be/c-NJtV9Jvp0
   - TensorFlow implementation: https://github.com/NVlabs/stylegan2
 - StyleGAN3 (2021)
-  - [《Alias-Free Generative Adversarial Networks》](https://arxiv.org/abs/2106.12423)
+  - 2021 [《Alias-Free Generative Adversarial Networks》](https://arxiv.org/abs/2106.12423)
   - https://nvlabs.github.io/stylegan3/
   - [NVIDIA提供的範例](https://colab.research.google.com/drive/1BXNHZBai-pXtP-ncliouXo_kUiG1Pq7M?usp=sharing)
 - BigGAN(2018)
   - [Large Scale GAN Training for High Fidelity Natural Image Synthesis](https://arxiv.org/abs/1809.11096)
-  - 【Tensorflow官方範例】[Generating Images with BigGAN]()
+  - 【Tensorflow官方範例】[Generating Images with BigGAN](https://www.tensorflow.org/hub/tutorials/biggan_generation_with_tf_hub)
 
 
 ![GAN](GAN.png)
