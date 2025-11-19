@@ -1,0 +1,82 @@
+## 學習資源
+- https://andy6804tw.github.io/wiki/
+
+## 歷史發展
+- 2015 Diffusion Model
+  - [Deep Unsupervised Learning using Nonequilibrium Thermodynamics](https://proceedings.mlr.press/v37/sohl-dickstein15.pdf)
+- 2020經典[(arXiv:2006.11239)Denoising Diffusion Probabilistic Models](https://arxiv.org/abs/2006.11239)
+  - https://github.com/hojonathanho/diffusion 
+- [(arXiv:2102.09672)Improved Denoising Diffusion Probabilistic Models](https://arxiv.org/abs/2102.09672)
+- 2021 Latent diffusion model (LDM)
+  - [High-Resolution Image Synthesis with Latent Diffusion Models](https://arxiv.org/abs/2112.10752) 
+- 2021 CLIP (Contrastive Language-Image Pre-Training)
+  - 經典[Learning Transferable Visual Models From Natural Language Supervision](https://arxiv.org/abs/2103.00020) 
+- 2021 DALL-E
+  - https://zh.wikipedia.org/wiki/DALL-E
+  - DALL-E 2(2022-04)
+  - DALL-E 3(October 2023)
+  - Sora (2024-02)
+  - In March 2025, DALL-E-3 was replaced in ChatGPT by GPT-4o's native image-generation capabilities.
+- 2022 Midjourney
+  - https://zh.wikipedia.org/wiki/Midjourney 
+- 2022 Stable_Diffusion
+  - https://zh.wikipedia.org/zh-tw/Stable_Diffusion
+  - Stable Diffusion (2022-08)
+  - Stable Diffusion 3 (2024-03)
+  - Stable Video 4D (2024-07)
+- 2021 Vision Transformer (ViT)
+- 微軟提出的 Swin Transformer
+  - 【論文】[Swin Transformer: Hierarchical Vision Transformer using Shifted Windows](https://arxiv.org/abs/2103.14030)
+  - 【導讀】https://www.geeksforgeeks.org/swin-transformer/
+  - 【導讀】https://blog.csdn.net/qq_37541097/article/details/121119988
+- Facebook 提出的 DeiT (Data-efficient image Transformer)
+- LLM再學習 ==>
+  - Parameter-Efficient Fine-Tuning (PEFT) ==> 🤗 [HuggingFace Parameter-Efficient Fine-Tuning (PEFT)](https://github.com/huggingface/peft)
+  - 【綜合報告】[Parameter-Efficient Fine-Tuning Methods for Pretrained Language Models: A Critical Review and Assessment](https://arxiv.org/abs/2312.12148)
+  - 透過凍結原本的預訓練模型(e.g., GPT-3) 的權重，搭配一個小的模型進行微調就可以達到很好的 Fine-Tuning 效果，同 Adapter 的概念：透過 Freeze LLM 僅透過微調新增的小型網路，當作補丁或是插件
+  - LoRA(2021): Low-Rank Adaptation of Large Language Models
+    - 【論文】[LoRA: Low-Rank Adaptation of Large Language Models](https://arxiv.org/abs/2106.09685)
+    - https://github.com/cloneofsimo/lora
+    - https://huggingface.co/spaces/lora-library/LoRA-DreamBooth-Training-UI
+    - 【導讀】微調大型語言模型LLM的技術LoRA及生成式AI-Stable diffusion LoRA
+    - 【導讀】【LLM專欄】All about Lora
+    - https://www.accucrazy.com/lora-ai-training/
+  - Dreambooth(2022)
+    - 【論文】[DreamBooth: Fine Tuning Text-to-Image Diffusion Models for Subject-Driven Generation](https://arxiv.org/abs/2208.12242) 
+  - ControlNet(2023)
+    - 【論文】[Adding Conditional Control to Text-to-Image Diffusion Models](https://arxiv.org/abs/2302.05543)
+    - 【導讀】https://ai-summoner.tw/7612/what-is-controlnet1-1/  
+- https://d223302.github.io/AACL2022-Pretrain-Language-Model-Tutorial/lecture_material/AACL_2022_tutorial_PLMs.pdf
+
+
+## [Stable Diffusion 在線](https://stablediffusionweb.com/zh-tw)
+## BOOKS
+- [Hands-On Generative AI with Transformers and Diffusion Models](https://learning.oreilly.com/library/view/hands-on-generative-ai/9781098149239/)
+- [Using Stable Diffusion with Python](https://learning.oreilly.com/library/view/using-stable-diffusion/9781835086377/)
+- [Diffusions in Architecture: Artificial Intelligence and Image Generators](https://learning.oreilly.com/library/view/diffusions-in-architecture/9781394191772/)
+- [Applied Generative AI for Beginners: Practical Knowledge on Diffusion Models, ChatGPT, and Other LLMs](https://learning.oreilly.com/library/view/applied-generative-ai/9781484299944/)
+
+## review
+- [Diffusion Models in Vision: A Survey](https://arxiv.org/abs/2209.04747)
+- [Diffusion Models in Recommendation Systems: A Survey](https://arxiv.org/abs/2501.10548)
+- [A Survey on Deep Neural Networks in Collaborative Filtering Recommendation Systems](https://arxiv.org/abs/2412.01378)
+- [Attacks and Defenses for Generative Diffusion Models: A Comprehensive Survey](https://arxiv.org/abs/2408.03400)
+- [A Comprehensive Survey on Knowledge Distillation of Diffusion Models](https://arxiv.org/abs/2304.04262)
+- [Survey of Video Diffusion Models: Foundations, Implementations, and Applications](https://arxiv.org/abs/2504.16081)
+- [Diffusion Models for Tabular Data: Challenges, Current Progress, and Future Directions](https://arxiv.org/abs/2502.17119)
+  - https://github.com/Diffusion-Model-Leiden/awesome-diffusion-models-for-tabular-data 
+- [Diffusion Model-Based Image Editing: A Survey](https://arxiv.org/abs/2402.17525)
+- [A Survey on Pre-Trained Diffusion Model Distillations](https://arxiv.org/abs/2502.08364)
+  - DM 的多步驟樣本生成機制使其在實踐中沒有吸引力，尤其是在資源匱乏的環境中。
+  - 與生成對抗網路 （GAN） 等單步生成模型不同Goodfellow 等人。 (2014)，DM 通過反覆運算過程生成樣本，該過程遞歸評估經過訓練的大型神經網路。
+  - 這種機制雖然可以有效地產生高質量的輸出，但對於這些高數量的函數計算 （NFE） 會產生大量的計算成本。
+  - 此外，訓練實用型 DM 通常需要大量數據，這對訓練過程提出了挑戰。
+  - 因此，在效率和速度至關重要的實際應用中部署 DM 仍然是一項重大挑戰。
+  - 為了解決這些限制，預先訓練的擴散蒸餾方法作為有前途的解決方案而受到關注。
+  - 蒸餾技術旨在創建更小尺寸、更高效的模型，該模型能夠以更少的步驟生成高品質的樣品，從而減少計算開銷。
+  - 這些方法的方法差異很大，從損失函數設計到雜訊到樣本生成過程中的軌跡優化。
+  - 此review從以下幾個方面系統地研究蒸餾方法：
+    - `1`.輸出重建(Output reconstruction) ==> 通過輸出值的角度、輸出分佈、一步去噪像空間和 Fisher 散度來回顧方法。
+    - `2`.軌跡蒸餾(Trajectory distillation) ==> 一致性蒸餾(Consistency distillation|Consistency model (CM) )、整流蒸餾(Rectified flow distillation)及其整合(Integrating CM and rectified flow)。
+    - `3`.對抗性蒸餾(Adversarial distillation)
+  - 最後，此review討論了該領域目前面臨的挑戰，並提出了潛在的未來研究方向。
