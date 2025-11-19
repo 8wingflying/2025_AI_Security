@@ -11,6 +11,7 @@
 - 結合計算機視覺和自然語言處理的學習任務，要求系統能夠根據輸入的圖像和一個自然語言問題生成相應的自然語言答案。
 - 這意味著VQA系統需要理解圖像內容、問題的含義和意圖，甚至可能需要常識推理來回答問題。
 - 這個任務不僅評估了模型對視覺資訊的理解能力，還測試了它處理自然語言問題的能力。
+- [Leaderboard - ScienceQA](https://scienceqa.github.io/leaderboard.html)
 
 ## CLIP  OpenAI 於 2021 年提出
 - `經典論文`[Learning Transferable Visual Models From Natural Language Supervision](https://arxiv.org/abs/2103.00020)
