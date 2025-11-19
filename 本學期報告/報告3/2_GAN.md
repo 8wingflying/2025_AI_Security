@@ -1,9 +1,15 @@
-## 範例
+## 課程示範 DCGAN
+- https://ithelp.ithome.com.tw/articles/10318257
+
+## 更多範例
 - Tensorflow官方範例
   - DCGAN [Deep Convolutional Generative Adversarial Network]()
   - [Generate Artificial Faces with CelebA Progressive GAN Model](https://www.tensorflow.org/hub/tutorials/tf_hub_generative_image_module)
   - [Generating Images with Little Data Using S3GAN](https://www.tensorflow.org/hub/tutorials/s3gan_generation_with_tf_hub)
   - [Fast Style Transfer for Arbitrary Styles](https://www.tensorflow.org/hub/tutorials/tf2_arbitrary_image_stylization)
+  - [Image Super Resolution using ESRGAN]()
+  - [Boundless Colab](https://www.tensorflow.org/hub/tutorials/boundless)
+    - [Boundless: Generative Adversarial Networks for Image Extension](https://arxiv.org/abs/1908.07007) 
 - PyTorch官方範例
 ## Awesome GAN
 - https://github.com/nightrome/really-awesome-gan
