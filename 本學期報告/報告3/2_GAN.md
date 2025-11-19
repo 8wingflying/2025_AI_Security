@@ -1,13 +1,16 @@
 ## 課程示範 DCGAN
-- https://ithelp.ithome.com.tw/articles/10318257
-
+- 介紹文章
+  - https://ithelp.ithome.com.tw/articles/10318257
+  - https://zhuanlan.zhihu.com/p/89487141
+- 程式範例
+  - DCGAN [Deep Convolutional Generative Adversarial Network](https://www.tensorflow.org/tutorials/generative/dcgan)
+  - `PyTorch官方範例`[DCGAN Tutorial](https://docs.pytorch.org/tutorials/beginner/dcgan_faces_tutorial.html)
 ## 更多範例
 - Tensorflow官方範例
-  - DCGAN [Deep Convolutional Generative Adversarial Network]()
   - [Generate Artificial Faces with CelebA Progressive GAN Model](https://www.tensorflow.org/hub/tutorials/tf_hub_generative_image_module)
   - [Generating Images with Little Data Using S3GAN](https://www.tensorflow.org/hub/tutorials/s3gan_generation_with_tf_hub)
   - [Fast Style Transfer for Arbitrary Styles](https://www.tensorflow.org/hub/tutorials/tf2_arbitrary_image_stylization)
-  - [Image Super Resolution using ESRGAN]()
+  - [Image Super Resolution using ESRGAN](https://www.tensorflow.org/hub/tutorials/image_enhancing)
   - [Boundless Colab](https://www.tensorflow.org/hub/tutorials/boundless)
     - [Boundless: Generative Adversarial Networks for Image Extension](https://arxiv.org/abs/1908.07007) 
 - PyTorch官方範例
