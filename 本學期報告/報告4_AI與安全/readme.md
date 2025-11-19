@@ -3,7 +3,7 @@
 - AI-powered defense
 - Attacking AI(Machine Learning)
   - [MITRE ALTAS](https://atlas.mitre.org/) [說明](MITREALTAS.md)
-  - OWASP TOP 10  
+  - [Top 10 Machine Learning Security Risks](https://owasp.org/www-project-machine-learning-security-top-10/)  [TOP20_ML說明](TOP20_ML.md)
 ## 自動化滲透測試
 ## AI Detection
 - [An Evaluation Framework for Network IDS/IPS Datasets: Leveraging MITRE ATT&CK and Industry Relevance Metrics](https://arxiv.org/abs/1903.08689)
