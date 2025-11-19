@@ -5,6 +5,7 @@
   - [AI Security 101](https://atlas.mitre.org/resources/ai-security-101) [說明](ai-security-101.md)
   - [MITRE ALTAS](https://atlas.mitre.org/) [說明](MITREALTAS.md)
   - [Top 10 Machine Learning Security Risks](https://owasp.org/www-project-machine-learning-security-top-10/)  [TOP20_ML說明](TOP20_ML.md)
+  - [OWASP Top 10 for Large Language Model Applications](https://owasp.org/www-project-top-10-for-large-language-model-applications/)  [TOP20_LLM說明](TOP20_LLM.md)
 ## 自動化滲透測試
 ## AI Detection
 - [An Evaluation Framework for Network IDS/IPS Datasets: Leveraging MITRE ATT&CK and Industry Relevance Metrics](https://arxiv.org/abs/1903.08689)
