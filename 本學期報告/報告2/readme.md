@@ -1,5 +1,5 @@
 ## 報告1A:IMDB自然語言實戰
-- [使用 TF‑IDF+ 機器學習 分析 (IMDB電影評論情感1_MACHINE_LEARNING.md)
+- [使用 TF‑IDF+ 機器學習 分析](IMDB電影評論情感1_MACHINE_LEARNING.md)
   - 以 TF‑IDF 將文字轉為特徵，並使用 Logistic Regression / Linear SVM 建立二元情感分類器（正向/負向），評估準確率、F1、混淆矩陣，並示範超參數搜尋與錯誤分析。 
 - [使用 RNN 分析](IMDB電影評論情感2_RNN.md)
   - 單層SimpleRNN, LSTM, GRU
@@ -9,7 +9,7 @@
   - 雙向GRU(Bidirectional GRU) 
 - [使用 Transformer 分析加入早停（Early Stopping）機制](IMDB電影評論情感6.md)
   - 以 Hugging Face Transformers（如 DistilBERT/BERT）微調二元情感分類器，並在 IMDB 影評資料集上評估 Accuracy/F1、混淆矩陣與錯誤分析，加入早停（Early Stopping）機制 提升訓練穩定性與防止過擬合。
-
+- [使用DistilBERT分析](IMDB電影評論情感4_DistilBERT.md)
  
 ## 報告1B:自然語言實戰
 - 自然語言理解 主題
