@@ -1,5 +1,5 @@
-##
-- [](https://arxiv.org/abs/1903.08689)
+## AI Detection
+- [An Evaluation Framework for Network IDS/IPS Datasets: Leveraging MITRE ATT&CK and Industry Relevance Metrics](https://arxiv.org/abs/1903.08689)
   - COMPREHENSIVE IDS DATASET COMPARISON (2009–2024)
   - five key evaluation metrics: ARS, TRS, TeRS, ECS and DQS
   - IDS/IPS Dataset Evaluation Framework
