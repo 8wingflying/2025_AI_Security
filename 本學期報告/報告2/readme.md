@@ -42,6 +42,9 @@
   - 附錄A sigmoid函數與tanh函數的微分
   - 附錄B 啟用WordNet
   - 附錄C GRU 
+- [Hands-On Large Language Models](https://learning.oreilly.com/library/view/hands-on-large-language/9781098150952/)
+  - [LLM 語意理解與生成技術完全開發](https://www.tenlong.com.tw/products/9786264251563?list_name=srh)
+  - https://github.com/HandsOnLLM/Hands-On-Large-Language-Models
 
 ## 報告2:Time series analysis using Custom-build LLM
 - ETF analysis using Deep learning
