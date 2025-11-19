@@ -28,7 +28,20 @@
 - NLP-5 LLM 預訓練語言模型== >
 - NLP-6 LLM Fine-Tunning
 
-
+## 推薦書籍
+- [Deep Learning 2｜用 Python 進行自然語言處理的基礎理論實作](https://www.tenlong.com.tw/products/9789865020675)
+  - https://github.com/oreilly-japan/deep-learning-from-scratch-2
+  - 第一章 複習類神經網路
+  - 第二章 自然語言與字詞的分散式表示
+  - 第三章 word2vec
+  - 第四章 word2vec的高速化
+  - 第五章 遞歸神經網路（RNN）
+  - 第六章 含閘門的RNN
+  - 第七章 使用RNN產生文章
+  - 第八章 Attention
+  - 附錄A sigmoid函數與tanh函數的微分
+  - 附錄B 啟用WordNet
+  - 附錄C GRU 
 
 ## 報告2:Time series analysis using Custom-build LLM
 - ETF analysis using Deep learning
