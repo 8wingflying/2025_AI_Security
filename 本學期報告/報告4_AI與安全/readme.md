@@ -2,7 +2,7 @@
 - AI-powered attack
 - AI-powered defense
 - Attacking AI(Machine Learning)
-  - [MITRE ALTAS](https://atlas.mitre.org/)
+  - [MITRE ALTAS](https://atlas.mitre.org/) [說明](MITREALTAS.md)
   - OWASP TOP 10  
 ## 自動化滲透測試
 ## AI Detection
