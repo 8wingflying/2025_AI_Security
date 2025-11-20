@@ -78,3 +78,96 @@ model.add(layers.Dense(1))
 model.summary()
 # model.compile(optimizer='adam', loss='mse')
 # model.fit(X, y, epochs=10)
+
+# 三、Pure Python (NumPy) 物件導向實作
+# 此實作不依賴深度學習框架，完全使用 NumPy 矩陣運算來還原數學公式，適合理解底層邏輯。
+
+import numpy as np
+
+class GRU:
+    def __init__(self, input_dim, hidden_dim):
+        """
+        初始化 GRU 權重
+        :param input_dim: 輸入特徵維度 (x_t)
+        :param hidden_dim: 隱藏狀態維度 (h_t)
+        """
+        self.input_dim = input_dim
+        self.hidden_dim = hidden_dim
+        
+        # 初始化權重 (W) 與 偏差 (b)
+        # 將公式中的 W · [h, x] 拆解為 W_x · x + W_h · h
+        
+        # 1. Update Gate (z_t) 參數
+        self.W_xz = np.random.randn(input_dim, hidden_dim) * 0.01
+        self.W_hz = np.random.randn(hidden_dim, hidden_dim) * 0.01
+        self.b_z = np.zeros((1, hidden_dim))
+        
+        # 2. Reset Gate (r_t) 參數
+        self.W_xr = np.random.randn(input_dim, hidden_dim) * 0.01
+        self.W_hr = np.random.randn(hidden_dim, hidden_dim) * 0.01
+        self.b_r = np.zeros((1, hidden_dim))
+        
+        # 3. Candidate State (h_tilde) 參數
+        self.W_xh = np.random.randn(input_dim, hidden_dim) * 0.01
+        self.W_hh = np.random.randn(hidden_dim, hidden_dim) * 0.01
+        self.b_h = np.zeros((1, hidden_dim))
+
+    def sigmoid(self, x):
+        return 1 / (1 + np.exp(-x))
+
+    def tanh(self, x):
+        return np.tanh(x)
+
+    def forward_step(self, x_t, h_prev):
+        """
+        執行單一時間步計算
+        對應架構圖中的綠色方塊
+        """
+        # Step 1: Update Gate (z_t)
+        # z_t = σ(W_z · [h_{t-1}, x_t])
+        z_t = self.sigmoid(np.dot(x_t, self.W_xz) + np.dot(h_prev, self.W_hz) + self.b_z)
+        
+        # Step 2: Reset Gate (r_t)
+        # r_t = σ(W_r · [h_{t-1}, x_t])
+        r_t = self.sigmoid(np.dot(x_t, self.W_xr) + np.dot(h_prev, self.W_hr) + self.b_r)
+        
+        # Step 3: Candidate Hidden State (h_tilde)
+        # h_tilde = tanh(W · [r_t * h_{t-1}, x_t])
+        reset_hidden = r_t * h_prev  # 重置舊記憶
+        h_tilde = self.tanh(np.dot(x_t, self.W_xh) + np.dot(reset_hidden, self.W_hh) + self.b_h)
+        
+        # Step 4: Final Hidden State (h_t)
+        # h_t = (1 - z_t) * h_{t-1} + z_t * h_tilde
+        h_t = (1 - z_t) * h_prev + z_t * h_tilde
+        
+        return h_t
+
+    def forward(self, X):
+        """處理完整序列輸入 [batch, time_steps, features]"""
+        batch_size, time_steps, _ = X.shape
+        h_t = np.zeros((batch_size, self.hidden_dim)) # 初始狀態 h_0
+        outputs = []
+        
+        for t in range(time_steps):
+            x_t = X[:, t, :]
+            h_t = self.forward_step(x_t, h_t)
+            outputs.append(h_t)
+            
+        return np.array(outputs).transpose(1, 0, 2)
+
+# --- 測試範例 ---
+if __name__ == "__main__":
+    # 模擬數據: Batch=2, TimeSteps=5, Features=3
+    x_input = np.random.randn(2, 5, 3)
+    
+    # 初始化 GRU
+    gru_layer = GRU(input_dim=3, hidden_dim=4)
+    
+    # 前向傳播
+    output = gru_layer.forward(x_input)
+    
+    print(f"輸入形狀: {x_input.shape}")
+    print(f"輸出形狀: {output.shape} (Batch, TimeSteps, HiddenDim)")
+    print("最後一個時間步的輸出 h_t:\n", output[:, -1, :])
+
+```
