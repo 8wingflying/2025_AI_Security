@@ -2,7 +2,6 @@
 - [Intro to Autoencoders](https://www.tensorflow.org/tutorials/generative/autoencoder)
 - [Convolutional Variational Autoencoder](https://www.tensorflow.org/tutorials/generative/cvae)
 
-
 ## 模型
 - Autoencoders及各種變形
   - Autoencoders
@@ -14,9 +13,11 @@
     - Recurrent Autoencoders
 - Variational Autoencoders(VAE) 2013
 
+## VAR
+- `經典論文`[[1312.6114] Auto-Encoding Variational Bayes](https://arxiv.org/abs/1906.02691)
 
 ## 應用(Applications of autoencoders)
-- Anomaly detection
+- Anomaly detection <== Autoencoders
 - Data denoising (ex. images, audio)
 - Image inpainting
 - Information retrieval
@@ -28,10 +29,8 @@
 - https://www.jeremyjordan.me/variational-autoencoders/
 - 深度學習Paper系列(04)：Variational Autoencoder (VAE)
 - https://en.wikipedia.org/wiki/Variational_autoencoder
-## VAR
-- `經典論文`[[1312.6114] Auto-Encoding Variational Bayes](https://arxiv.org/abs/1906.02691)
+- https://hmjw.github.io/2020/05/04/VAE/
+- https://nishanthta.github.io/VAE/
 
 ## 範例程式
-- `Tensorflow官方範例`
-  - 
 - 進階VAE see [PyTorch VAE](https://github.com/AntixK/PyTorch-VAE)
