@@ -40,3 +40,11 @@
 
 ## Flamingo(2022)
 - Flamingo: a Visual Language Model for Few-Shot Learning
+- 論文
+  - [Flamingo: a Visual Language Model for Few-Shot Learning](https://arxiv.org/abs/2204.14198)
+    - https://blog.csdn.net/LoseInVain/article/details/136072993 
+  - [OpenFlamingo: An Open-Source Framework for Training Large Autoregressive Vision-Language Models](https://arxiv.org/abs/2308.01390)
+    - https://github.com/mlfoundations/open_flamingo 
+- 導讀
+  - [Understanding DeepMind’s Flamingo Visual Language Model](https://medium.com/@paluchasz/understanding-flamingo-visual-language-models-bea5eeb05268)
+  - https://blog.csdn.net/qq_41739364/article/details/144669300
