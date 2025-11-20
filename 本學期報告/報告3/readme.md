@@ -9,3 +9,10 @@ https://github.com/8wingflying/2025_AI_Security/tree/main/%E7%94%9F%E6%88%90%E5%
   - [Generative Deep Learning: Teaching Machines to Paint, Write, Compose, and Play, 2/e](https://learning.oreilly.com/library/view/generative-deep-learning/9781098134174/)
     - https://github.com/davidADSP/Generative_Deep_Learning_2nd_Edition 
 
+## 課程
+- Stanford Deep Generative Models CS236 - Fall 2023
+  - https://github.com/deepgenerativemodels/notes 
+  - Autoregressive Models
+  - Variational Autoencoders
+  - Normalizing Flow Models
+  - Generative Adversarial Networks 
