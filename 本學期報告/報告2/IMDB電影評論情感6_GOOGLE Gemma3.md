@@ -101,10 +101,9 @@ for i, item in enumerate(dataset):
 - 使用 PEFT (LoRA) 和 TRL (SFTTrainer) 對 Gemma 3 進行微調的程式碼。
 - 這個方法只需要訓練模型的一小部分參數，極大地減少了顯存需求和訓練時間。
 - 🚀 1. 環境與函式庫準備
-  - # 確保已安裝：transformers, torch, accelerate, bitsandbytes, datasets
-  - pip install peft trl
+- # 確保已安裝：transformers, torch, accelerate, bitsandbytes, datasets
+- pip install peft trl
 - 💻 2. Gemma 3 Lora 微調程式碼
-  -  
 ```python
 import torch
 from transformers import (
