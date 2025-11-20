@@ -1,4 +1,4 @@
-## Google Gemma 3 模型（可能您是在用簡寫指代 的 4-bit 量化版本，或者是 “Gem for Gemma” 的某種昵稱）
+## Google Gemma 3 模型
 - Gemma 3 是 Google 在 2025 年發佈的多模態開放模型，非常適合用於文本分析任務。
 - 本指南將展示如何使用 Gemma 3-4B-IT（指令微調版）對 IMDB 電影評論數據集 進行情感分析（Sentiment Analysis）。
 - 為了在單張 GPU（如 Colab T4 或本地顯卡）上高效運行，我們將使用 4-bit 量化載入模型。
