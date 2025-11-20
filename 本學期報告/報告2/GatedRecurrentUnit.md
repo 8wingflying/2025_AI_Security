@@ -1,4 +1,4 @@
-# Gated Recurrent Unit (GRU) 深度解析：從數學原理到程式實作
+### Gated Recurrent Unit (GRU) 深度解析：從數學原理到程式實作
 
 本文件詳細解析 Gated Recurrent Unit (GRU) 的運作機制。內容涵蓋根據架構圖的數學公式推導、使用 TensorFlow 的高階實作，以及不依賴框架的純 Python (NumPy) 底層實作。
 
