@@ -1,3 +1,8 @@
+## 範例
+- [Intro to Autoencoders](https://www.tensorflow.org/tutorials/generative/autoencoder)
+- [Convolutional Variational Autoencoder](https://www.tensorflow.org/tutorials/generative/cvae)
+
+
 ## 模型
 - Autoencoders及各種變形
   - Autoencoders
@@ -25,6 +30,13 @@
 - https://en.wikipedia.org/wiki/Variational_autoencoder
 ## VAR
 - `經典論文`[[1312.6114] Auto-Encoding Variational Bayes](https://arxiv.org/abs/1906.02691)
+## 課程
+- Stanford Deep Generative Models CS236 - Fall 2023
+  - https://github.com/deepgenerativemodels/notes 
+  - Autoregressive Models
+  - Variational Autoencoders
+  - Normalizing Flow Models
+  - Generative Adversarial Networks 
 
 ## 範例程式
 - `Tensorflow官方範例`
