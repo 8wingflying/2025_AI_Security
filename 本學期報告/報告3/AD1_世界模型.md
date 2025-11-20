@@ -1,5 +1,7 @@
 # 世界模型(World Models)
-- [Awesome-World-Model](https://github.com/tsinghua-fib-lab/World-Model) 
+- [Awesome-World-Model](https://github.com/tsinghua-fib-lab/World-Model)
+- [Awesome World Models for Autonomous Driving](https://github.com/LMD0311/Awesome-World-Model)
+  - 202502[he Role of World Models in Shaping Autonomous Driving: A Comprehensive Survey](https://arxiv.org/abs/2502.10498) 
 
 
 ## 論文
