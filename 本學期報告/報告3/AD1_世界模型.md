@@ -1,7 +1,10 @@
 # 世界模型(World Models)
+- [Awesome-World-Model](https://github.com/tsinghua-fib-lab/World-Model) 
+
 
 ## 論文
-- 2018 `開山巨作`[World Models](https://arxiv.org/abs/1803.10122)
+- 2018 `開山巨作`2018[World Models|David Ha, Jürgen Schmidhuber](https://arxiv.org/abs/1803.10122)
+  - https://worldmodels.github.io/
 - [[1809.01999] Recurrent World Models Facilitate Policy Evolution](https://arxiv.org/abs/1809.01999)
 - 2024[(2402)World Model on Million-Length Video And Language With Blockwise RingAttention](https://arxiv.org/abs/2402.08268)
   - https://github.com/LargeWorldModel/lwm 
@@ -12,7 +15,8 @@
   - 【導讀】https://zhuanlan.zhihu.com/p/685851325
 
 ## REVIEW
-- [Understanding World or Predicting Future? A Comprehensive Survey of World Models](https://arxiv.org/abs/2411.14499)
+- 2024.11 [Understanding World or Predicting Future? A Comprehensive Survey of World Models](https://arxiv.org/abs/2411.14499v1)
+  - https://arxiv.org/abs/2411.14499 
   - https://github.com/LargeWorldModel/lwm
 
 ## 參考資料
