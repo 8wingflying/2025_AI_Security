@@ -33,6 +33,9 @@
   - [李飛飛創業公司World Labs:引領AI新方向的“大世界模型”](https://blog.csdn.net/weixin_41496173/article/details/142441574)
   - 大世界模型(Large WorldModel, LWM)是World Labs的另一個核心
 
+#### 評測
+
+
 #### [Understanding World or Predicting Future? A Comprehensive Survey of World Models](https://arxiv.org/abs/2411.14499)
 - 由於 GPT-4 等多模態大型語言模型和 Sora 等視頻生成模型的進步，世界模型的概念引起了廣泛關注，這些模型是追求通用人工智慧的核心。
 - 本文對世界模型的文獻進行了全面回顧。
