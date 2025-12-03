@@ -16,3 +16,5 @@ https://github.com/8wingflying/2025_AI_Security/tree/main/%E7%94%9F%E6%88%90%E5%
   - Variational Autoencoders
   - Normalizing Flow Models
   - Generative Adversarial Networks 
+## diffusion Model
+- 202510 [The Principles of Diffusion Models](https://arxiv.org/abs/2510.21890)
