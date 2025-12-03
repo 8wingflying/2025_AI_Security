@@ -56,6 +56,11 @@
     - CLIP（OpenAI,,2021）：CLIP（Contrastive Language-Image Pre-Training）(中階主題)
     - 生成式AI ==> diffusion model(2021/2022)
     - .....
-   
+
+  ## REVIEW
+  - 👍2024[A review of convolutional neural networks in computer vision](https://link.springer.com/article/10.1007/s10462-024-10721-6)
+  - 2023 [A Review of Convolutional Neural Networks, its Variants and Applications](https://ieeexplore.ieee.org/document/10100412)
+  - 2020 [A Survey of Convolutional Neural Networks: Analysis, Applications, and Prospects](https://arxiv.org/abs/2004.02806)
+  - 201710 [A Review of Convolutional Neural Networks for Inverse Problems in Imaging](https://arxiv.org/abs/1710.04011)
 
    
