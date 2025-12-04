@@ -13,6 +13,15 @@
   - five key evaluation metrics: ARS, TRS, TeRS, ECS and DQS
   - IDS/IPS Dataset Evaluation Framework
 
+## 論文
+- 202512[Cybersecurity AI: The World's Top AI Agent for Security Capture-the-Flag (CTF)](https://arxiv.org/abs/2512.02654)
+- 202512[An Empirical Study on the Security Vulnerabilities of GPTs](https://arxiv.org/abs/2512.00136)
+- 202511[Federated Learning Survey: A Multi-Level Taxonomy of Aggregation Techniques, Experimental Insights, and Future Frontiers](https://arxiv.org/abs/2511.22616)
+- [Standardized Threat Taxonomy for AI Security, Governance, and Regulatory Compliance](https://arxiv.org/abs/2511.21901)
+
+
+
+
 #### Model Performance Table
 
 | 模型名稱                                       |   Exact Match % |   Partial Match % |   Overall Accuracy % |
